@@ -1,3 +1,3 @@
 <?php
-echo "<br/>TEST 01<br/>";
+//echo "<br/>TEST 01<br/>";
 require "hello.php";

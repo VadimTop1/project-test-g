@@ -8,7 +8,7 @@
 
 <h2>Страница теста аналитики <h1>[ГЛАВНАЯ]</h1></h2>
 <table>
-<tr><td><a href="/page1.php">Пункт 1</a></td><td><a href="/page2.php">Пункт 2</a></td></tr>
+  <p><tr><td><a href="/page1.php">Пункт 1</a></td><td><a href="/page2.php">Пункт 2</a></td></tr></p>
 </table>
 <br/>
   <form name="f1" method="get" action="enter_data.php">
@@ -27,4 +27,6 @@
     <input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
     <input type="submit" name="enter" value="Отправить" />
   </form>
+
+<div style="position:absolute; float:right; width:100px; height:100px; border:2px solid #ffffff"></div>
 </body>
