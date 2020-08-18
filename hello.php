@@ -28,5 +28,12 @@
     <input type="submit" name="enter" value="Отправить" />
   </form>
 
-<div style="position:absolute; float:right; width:100px; height:100px; border:2px solid #ffffff"></div>
+<div style="position:absolute; 
+            float:right;
+            width:100px;
+            height:100px;
+            border:2px solid #000000;
+            background: antiquewhite;
+            top: 50;
+            right: 50px;"></div>
 </body>
