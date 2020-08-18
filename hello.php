@@ -2,9 +2,11 @@
 
 ?>
 <head>
-  <title>Один из возможных вариантов HTML формы</title>
+  <title>Аналитик тест</title>
 </head>
 <body>
+
+<h2>Страница теста аналитики <h1>[ГЛАВНАЯ]</h1></h2>
 <table>
 <tr><td><a href="/page1.php">Пункт 1</a></td><td><a href="/page2.php">Пункт 2</a></td></tr>
 </table>
