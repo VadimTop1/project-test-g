@@ -41,4 +41,4 @@
             right: 50px;"></div>
 </body>
 
-<div id="tel2Id"><b>Телефон 1:</b> 001278989</div>
+<div id="tel2Id"><b>Телефон 2:</b> 2223278449</div>
