@@ -4,37 +4,36 @@
 {
     position:absolute;
     float:right;
-    width:100px;
-    height:100px;
-    border:2px solid #000000;
-    background: antiquewhite;
+    background: #ffffff;
     top: 50;
     right: 50px;
-    border-radius: 50%;
     z-index: 999;
 }
 
 .button_form:hover
 {
-    border-color: #9c38a5;
     cursor: pointer;
+    background: #000000;
+    color: #ffffff;
 }
 
 #form_board
 {
     display: none; /*!important*/
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    background: #0000005d;
 }
 
 #form_board form
 {
-    width: 50%;
-    height: 97%;
     position: absolute;
-    background: #f7a4ff;
-    border: 2px solid #000000;
-    border-radius: 10px;
     z-index: 99;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     /*display: none;*/
 }
 
