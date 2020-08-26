@@ -64,10 +64,10 @@ a:active {
 
 table tr td a
 {
-    border: 2px solid cornflowerblue;
+    border: 2px solid cornflowerblue !important;
     padding: 5px;
     border-radius: 10px;
-    color: cornflowerblue;
+    color: cornflowerblue !important;
 }
 
 table tr td a:hover
