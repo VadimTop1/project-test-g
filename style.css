@@ -14,7 +14,7 @@
 {
     cursor: pointer;
     /*background: #000000;*/
-    /*color: #06b7fd;*/
+    /*color: #0099ff;*/
 
     /*font-size: 35px !important;*/
 }
@@ -51,16 +51,16 @@
 
 table tr td a
 {
-    border: 2px solid #06b7fd;
+    border: 2px solid #0099ff;
     padding: 5px;
     border-radius: 10px;
-    color: #06b7fd;
+    color: #0099ff;
     text-decoration: none;
 }
 
 table tr td a:hover
 {
     color: #ffffff;
-    background-color: #06b7fd;
+    background-color: #0099ff;
 }
 
