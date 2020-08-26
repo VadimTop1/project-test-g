@@ -9,6 +9,7 @@
     top: 50;
     right: 50px;
     border-radius: 50%;
+    z-index: 999;
 }
 
 .button_form:hover
@@ -17,14 +18,20 @@
     cursor: pointer;
 }
 
+.form_board
+{
+    display: none; /*!important*/
+}
+
 #form_board form
 {
     width: 50%;
-    height: 50%;
+    height: 97%;
     position: absolute;
     background: #f7a4ff;
     border: 2px solid #000000;
     border-radius: 10px;
     z-index: 99;
+    top: 0;
     /*display: none;*/
 }
