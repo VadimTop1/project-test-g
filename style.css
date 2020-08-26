@@ -62,7 +62,7 @@ a:active {
     /*display: none;*/
 }
 
-table tr td
+table tr td a
 {
     border: 2px solid cornflowerblue;
     padding: 5px;
@@ -70,7 +70,7 @@ table tr td
     color: cornflowerblue;
 }
 
-table tr td:hover
+table tr td a:hover
 {
     color: #ffffff;
     background-color: cornflowerblue;
