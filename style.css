@@ -20,7 +20,7 @@
 
 .form_board
 {
-    display: none; /*!important*/
+    display: none !important;
 }
 
 #form_board form
