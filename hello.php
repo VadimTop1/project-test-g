@@ -45,3 +45,4 @@
 </div>
 </body>
 <div id="tel2Id"><b>Телефон 2:</b> 2223278449</div>
+<script src="js/script.js"></script>
