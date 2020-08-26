@@ -4,7 +4,7 @@
 {
     position:absolute;
     float:right;
-    background: #ffffff;
+    color: #ffffff;
     top: 30;
     right: 50px;
     z-index: 999;
@@ -16,7 +16,7 @@
     cursor: pointer;
     /*background: #000000;*/
     color: #ffffff;
-    font-size: 35px !important;
+    /*font-size: 35px !important;*/
 }
 
 #form_board
@@ -25,7 +25,7 @@
     position: absolute;
     z-index: 99;
     top: 0;
-    background: #0000005d;
+    background: #000000e3;
     padding: 30px;
     border: 3px solid #ffffff;
     border-radius: 15px;
@@ -46,7 +46,7 @@
 
 #form_board form input[type=text]
 {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 table tr td a

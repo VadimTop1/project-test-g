@@ -28,33 +28,33 @@
     <br/>
     <div id="tel1Id"><b>Телефон 1:</b> 001278989</div>
     <br/>
-      <form name="f1" method="get" action="#">
-        <input name="link" type="hidden" value="index.php" />
-        TEXT 1: <br />
-        <input name="login" type="text" size="25" maxlength="30" value="Вася" /> <br />
-        TEXT 1: <br />
-        <input name="link" type="hidden" value="index.php" />
-        TEXT 1: <br />
-        <input name="link" type="hidden" value="index.php" />
-        TEXT 1: <br />
-        <input name="link" type="hidden" value="index.php" />
-        TEXT 1: <br />
-        <input name="link" type="hidden" value="index.php" />
-        КОД: <br />
-        <input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
-        <input type="submit" name="enter" value="Отправить" />
-      </form>
+        <form name="f1" method="get" action="#">
+            <label label for="login">First Name: </label>
+            <input name="login" type="text" size="25" maxlength="30" value="Вася" />
+            <br />
+            <label label for="text1">Text 1: </label>
+            <input name="text1" type="text" size="25" maxlength="30" value="Вася" />
+            <br />
+            <label label for="text2">Text 2: </label>
+            <input name="text2" type="text" size="25" maxlength="30" value="Вася" />
+            <br />
+            <label label for="pd">Код: </label>
+            <br />
+            <input name="pd" type="password" size="25" maxlength="30" value="" />
+            <br />
+            <input type="submit" name="enter" value="Отправить" />
+        </form>
 
     <i class="fa fa-bars button_form" aria-hidden="true"></i>
     <div id="form_board">
-      <form name="f2" method="get" action="#">
-        <input name="link" type="hidden" value="index.php" />
-        Введите свое имя: <br />
-        <input name="name" type="text" size="25" maxlength="30" value="Вася" /> <br />
-        Введите свой телефон: <br />
-        <input name="tel" type="text" size="25" maxlength="30" value="Вася" /> <br />
-        <input type="submit" name="enter" value="Отправить" />
-      </form>
+        <form name="f2" method="get" action="#">
+            <label label for="login">Введите имя: </label>
+            <input name="name" type="text" size="25" maxlength="30" value="Вася" />
+            <label label for="tel">Введите свой телефон: </label>
+            <input name="tel" type="text" size="25" maxlength="30" value="+38071" />
+            <br/>
+            <input type="submit" name="enter" value="Отправить" />
+        </form>
     </div>
 </body>
     <div id="tel2Id"><b>Телефон 2:</b> 2223278449</div>
