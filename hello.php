@@ -3,6 +3,7 @@
 ?>
 <head>
   <title>Аналитик тест</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -31,14 +32,7 @@
     <input type="submit" name="enter" value="Отправить" />
   </form>
 
-<div style="position:absolute; 
-            float:right;
-            width:100px;
-            height:100px;
-            border:2px solid #000000;
-            background: antiquewhite;
-            top: 50;
-            right: 50px;"></div>
+<div class="button_form"></div>
 </body>
 
 <div id="tel2Id"><b>Телефон 2:</b> 2223278449</div>
