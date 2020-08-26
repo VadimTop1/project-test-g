@@ -66,6 +66,7 @@ table tr td a:hover
 
 .content
 {
+    margin-top: 15px;
     position: relative;
     float: left;
     width: 250px;
