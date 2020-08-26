@@ -30,13 +30,21 @@
     <br/>
         <form name="f1" method="get" action="#">
             <label label for="login">First Name: </label>
+            <br />
             <input name="login" type="text" size="25" maxlength="30" value="Вася" />
+            <br />
             <label label for="text1">Text 1: </label>
+            <br />
             <input name="text1" type="text" size="25" maxlength="30" value="Вася" />
+            <br />
             <label label for="text2">Text 2: </label>
+            <br />
             <input name="text2" type="text" size="25" maxlength="30" value="Вася" />
+            <br />
             <label label for="pd">Код: </label>
+            <br />
             <input name="pd" type="password" size="25" maxlength="30" value="" />
+            <br />
             <input type="submit" name="enter" value="Отправить" />
         </form>
 
@@ -44,8 +52,11 @@
     <div id="form_board">
         <form name="f2" method="get" action="#">
             <label label for="login">Введите имя: </label>
+            <br />
             <input name="name" type="text" size="25" maxlength="30" value="Вася" />
+            <br />
             <label label for="tel">Введите свой телефон: </label>
+            <br />
             <input name="tel" type="text" size="25" maxlength="30" value="+38071" />
             <br/>
             <input type="submit" name="enter" value="Отправить" />
