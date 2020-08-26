@@ -41,6 +41,11 @@
     /*display: none;*/
 }
 
+#form_board form input[type=text]
+{
+    color: #ffffff;
+}
+
 table tr td a
 {
     border: 2px solid cornflowerblue;
