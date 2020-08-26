@@ -7,10 +7,10 @@ buttonform.addEventListener( "click" ,
         if(form_board.style.display == "none" || formBoardStyle.display == "none")
         {
             form_board.style.display="block";
-            button_form.style.color = "#ffffff";
+            buttonform.style.color = "#ffffff";
         }else{
             form_board.style.display="none";
-            button_form.style.color = "#000000";
+            buttonform.style.color = "#000000";
         }
     }
 );
