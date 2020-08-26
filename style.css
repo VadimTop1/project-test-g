@@ -64,3 +64,15 @@ table tr td a:hover
     background-color: cornflowerblue;
 }
 
+.content
+{
+    position: relative;
+    float: left;
+    width: 250px;
+
+    font: 14px/20px BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+    color: #333;
+}
