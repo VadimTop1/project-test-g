@@ -11,6 +11,7 @@
     <!-- End Google Tag Manager -->
     <title>Аналитик тест</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -44,7 +45,7 @@
         <input type="submit" name="enter" value="Отправить" />
       </form>
 
-    <div class="button_form"></div>
+    <i class="fa fa-bars button_form" aria-hidden="true"></i>
     <div id="form_board">
       <form name="f2" method="get" action="#">
         <input name="link" type="hidden" value="index.php" />
