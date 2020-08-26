@@ -15,7 +15,7 @@
 <br/>
 <div id="tel1Id"><b>Телефон 1:</b> 001278989</div>
 <br/>
-  <form name="f1" method="get" action="enter_data.php">
+  <form name="f1" method="get" action="#">
     <input name="link" type="hidden" value="index.php" />
     TEXT 1: <br />
     <input name="login" type="text" size="25" maxlength="30" value="Вася" /> <br />
@@ -34,5 +34,14 @@
 
 <div class="button_form"></div>
 </body>
-
+<div id="form_board">
+  <form name="f2" method="get" action="#">
+    <input name="link" type="hidden" value="index.php" />
+    Введите свое имя: <br />
+    <input name="name" type="text" size="25" maxlength="30" value="Вася" /> <br />
+    Введите свой телефон: <br />
+    <input name="tel" type="text" size="25" maxlength="30" value="Вася" /> <br />
+    <input type="submit" name="enter" value="Отправить" />
+  </form>
+</div>
 <div id="tel2Id"><b>Телефон 2:</b> 2223278449</div>

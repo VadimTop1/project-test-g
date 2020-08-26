@@ -16,3 +16,13 @@
     border-color: #9c38a5;
     cursor: pointer;
 }
+
+#form_board form
+{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background: #f7a4ff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
