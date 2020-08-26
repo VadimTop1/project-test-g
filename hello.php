@@ -31,17 +31,12 @@
         <form name="f1" method="get" action="#">
             <label label for="login">First Name: </label>
             <input name="login" type="text" size="25" maxlength="30" value="Вася" />
-            <br />
             <label label for="text1">Text 1: </label>
             <input name="text1" type="text" size="25" maxlength="30" value="Вася" />
-            <br />
             <label label for="text2">Text 2: </label>
             <input name="text2" type="text" size="25" maxlength="30" value="Вася" />
-            <br />
             <label label for="pd">Код: </label>
-            <br />
             <input name="pd" type="password" size="25" maxlength="30" value="" />
-            <br />
             <input type="submit" name="enter" value="Отправить" />
         </form>
 
