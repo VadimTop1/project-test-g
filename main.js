@@ -1,4 +1,5 @@
-var buttonform = document.querySelector('button_form');
+var buttonform = document.querySelector('.button_form');
+//alert(buttonform);
 //var formBoard = document.querySelector('form_board');//form_board
 let formBoardStyle = getComputedStyle(form_board);
 buttonform.addEventListener( "click" , 
