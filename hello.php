@@ -33,7 +33,6 @@
   </form>
 
 <div class="button_form"></div>
-</body>
 <div id="form_board">
   <form name="f2" method="get" action="#">
     <input name="link" type="hidden" value="index.php" />
@@ -44,4 +43,5 @@
     <input type="submit" name="enter" value="Отправить" />
   </form>
 </div>
+</body>
 <div id="tel2Id"><b>Телефон 2:</b> 2223278449</div>
