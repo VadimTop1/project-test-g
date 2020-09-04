@@ -82,11 +82,10 @@ table tr td a:hover
 {
     position: relative;
     float: left;
+    width: 100%;
 }
 
 #telId
 {
     margin-top: 15px;
 }
-
-/*Новый коммит*/
