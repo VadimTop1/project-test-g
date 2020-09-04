@@ -26,7 +26,7 @@
         <tr><td><a href="/page1.php">Пункт 1</a></td><td><a href="/page2.php">Пункт 2</a></td></tr>
     </table>
     <br/>
-    <div id="tel1Id"><b>Телефон 1:</b> 001278989</div>
+    <div id="telId"><b>Телефон 1:</b> 001278989</div>
     <br/>
         <form name="f1" method="get" action="#">
             <label for="login">First Name: </label>

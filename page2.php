@@ -23,6 +23,8 @@
     <table>
         <tr><td><a href="/">Главная</a></td><td><a href="/page1.php">Пункт 1</a></td></tr>
     </table>
+    <div id="telId"><b>Телефон 1:</b> 001278989</div>
+    <div id="telId"><b>Телефон 2:</b> 021278989</div>
     <div class="content">
         <h3>Поиск: getElement*, querySelector*</h3>
         <p>
@@ -61,5 +63,5 @@
             Если у элемента есть атрибут id, то мы можем получить его вызовом document.getElementById(id), где бы он ни находился.
         </p>
     </div>
-
+    <div id="tel2Id"><b>Телефон 2:</b> 2223278449</div>
 </body>

@@ -23,5 +23,6 @@
     <table>
         <tr><td><a href="/">Главная</a></td><td><a href="/page2.php">Пункт 2</a></td></tr>
     </table>
-
+    <div id="telId"><b>Телефон 1:</b> 001278989</div>
+    <div id="telId"><b>Телефон 2:</b> 021278989</div>
 </body>
