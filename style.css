@@ -77,3 +77,9 @@ table tr td a:hover
     text-size-adjust: none;
     color: #333;
 }
+
+#tel2Id
+{
+    position: relative;
+    float: left;
+}
