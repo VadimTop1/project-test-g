@@ -57,7 +57,7 @@
         <form id="f2" method="get" action="#">
             <label for="login">Введите имя: </label>
             <br />
-            <input name="name" type="text" size="25" maxlength="30" value="Вася" />
+            <input name="name" type="text" size="25" maxlength="30" value="" />
             <br />
             <br />
             <label for="tel">Введите свой телефон: </label>
