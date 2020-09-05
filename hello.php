@@ -65,6 +65,10 @@
             <br />
             <input name="tel" type="text" size="25" maxlength="30" value="+38071" />
             <br/>
+            <label for="tel">Выберите файл: </label>
+            <br/>
+            <input type="file" name="fileNew">
+            <br />
             <br />
             <input type="submit" name="enter" value="Отправить" />
         </form>
