@@ -2,6 +2,7 @@
 
 ?>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -57,7 +58,7 @@
         <form id="f2" method="post" action="#">
             <label for="login">Введите имя: </label>
             <br />
-            <input name="name" type="text" size="25" maxlength="30" value="" />
+            <input name="name" type="text" size="25" maxlength="30" value="" p/>
             <br />
             <br />
             <label for="tel">Введите свой телефон: </label>
