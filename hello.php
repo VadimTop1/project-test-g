@@ -29,7 +29,7 @@
     <br/>
     <div id="telId"><b>Телефон 1:</b> 001278989</div>
     <br/>
-        <form id="f1" method="post" action="#" onsubmit="return false">
+        <form id="f1" method="post" action="#">
             <label for="login">First Name: </label>
             <br />
             <input name="login" type="text" size="25" maxlength="30" value="Вася" />
@@ -55,7 +55,7 @@
 
     <i class="fa fa-bars button_form" aria-hidden="true"></i>
     <div id="form_board">
-        <form id="f2" method="post" action="#">
+        <form id="f2" method="post" action="#" onsubmit="return false">
             <label for="login">Введите имя: </label>
             <br />
             <input name="name" type="text" size="25" maxlength="30" value="" p/>
