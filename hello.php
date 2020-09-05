@@ -29,7 +29,7 @@
     <br/>
     <div id="telId"><b>Телефон 1:</b> 001278989</div>
     <br/>
-        <form id="f1" method="post" action="#">
+        <form id="f1" method="post" action="#" onsubmit="return false">
             <label for="login">First Name: </label>
             <br />
             <input name="login" type="text" size="25" maxlength="30" value="Вася" />
