@@ -55,7 +55,7 @@
 
     <i class="fa fa-bars button_form" aria-hidden="true"></i>
     <div id="form_board">
-        <form id="f2" method="post" action="#" onsubmit="return false">
+        <form id="f2" method="post" action="#">
             <label for="name">Введите имя: </label>
             <br />
             <input name="name" type="text" size="25" maxlength="30" value="" required/>
