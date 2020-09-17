@@ -61,9 +61,9 @@
             <input name="name" type="text" size="25" maxlength="30" value="" p/>
             <br />
             <br />
-            <label for="tel">Введите свой телефон: </label>
+            <label for="mail">Введите свою почту: </label>
             <br />
-            <input name="tel" type="text" size="25" maxlength="30" value="+38071" />
+            <input name="mail" type="mail" size="25" maxlength="30" value="+38071" />
             <br/>
             <label for="fileNew">Выберите файл: </label>
             <br/>
