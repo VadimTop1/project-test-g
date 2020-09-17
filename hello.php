@@ -58,12 +58,12 @@
         <form id="f2" method="post" action="#" onsubmit="return false">
             <label for="login">Введите имя: </label>
             <br />
-            <input name="name" type="text" size="25" maxlength="30" value="" p/>
+            <input name="name" type="text" size="25" maxlength="30" value="" required/>
             <br />
             <br />
             <label for="mail">Введите свою почту: </label>
             <br />
-            <input name="mail" type="mail" size="25" maxlength="30" value="+38071" />
+            <input name="mail" type="email" placeholder="mail@example.com" required/>
             <br/>
             <label for="fileNew">Выберите файл: </label>
             <br/>
@@ -71,7 +71,7 @@
             <br />
             <label for="pdf2">Готовы принять условия: </label>
             <br />
-            <input type="checkbox" name="pdf2" value="1">
+            <input type="checkbox" name="pdf2" value="1" required>
             <br />
             <br />
             <input type="submit" name="enter" value="Отправить" />
