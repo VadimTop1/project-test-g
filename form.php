@@ -49,7 +49,10 @@ if(
     //$headers[] = 'Bcc: birthdaycheck@example.com';
 
     // Отправляем
-    mail($to, $subject, $message, $headers);
+    if(mail($to, $subject, $message, $headers))
+        echo "<br/>Отправленно!!";
+    else
+        echo "<br/>Ошибка!!";
 }else
 {
     echo '<br/><br/>Введите все данные!!!<br/>';
