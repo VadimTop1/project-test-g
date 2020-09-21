@@ -18,7 +18,7 @@ if(
 
     //$mail = new Mail($body,  $title);
     //$mail->inf();
-    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+    $mail = new PHPMailer\PHPMailer\PHPMailer();
     try {
         //Server settings
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
