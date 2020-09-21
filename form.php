@@ -1,6 +1,6 @@
 <?php
 //require 'phpmailer/config_mail.php';
-
+echo '<p>test0</p>';
 require 'PHPMailer\PHPMailer\PHPMailer.php';
 require 'PHPMailer\PHPMailer\SMTP.php';
 require 'PHPMailer\PHPMailer\Exception.php';
