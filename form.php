@@ -12,8 +12,8 @@ if(
     isset($_POST['enter'])
     )
 {
-    $name = $_POST['name'];
-    $mail = $_POST['mail'];
+    $form_name = $_POST['name'];
+    $form_mail = $_POST['mail'];
     echo '<br/><br/>'.$_POST['pdf2'].' | '.$_POST['name'].' | '.$_POST['mail'].'<br/>';
 
     //$mail = new Mail($body,  $title);
@@ -34,7 +34,7 @@ if(
 
         //Recipients
         $mail->setFrom('vadim2_1423@mail.ru', 'Вадим');        //Отправитель и его имя
-        $mail->addBCC($mail);
+        $mail->addBCC($form_mail);
 
         // Attachments
         //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
@@ -44,11 +44,11 @@ if(
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = 'Тестируем отправку на почту';
         $mail->Body    = '
-            <h2>Новое письмо</h2>
-            <b>Имя:</b> '.$name.'<br>
-            <b>Почта:</b> '.$mail.'<br><br>
+            <h2>Новое письмо</h2><br><br>
+            <b>Имя:</b> '.$form_name.'<br>
+            <b>Почта:</b> '.$form_mail.'<br>
         ';
-        $mail->AltBody = 'Новое письмо. Имя: '.$name.', Почта: '.$mail;
+        $mail->AltBody = 'Новое письмо. Имя: '.$form_name.', Почта: '.$form_mail;
 
         $mail->send();
         echo 'Message has been sent';
