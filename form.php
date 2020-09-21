@@ -7,8 +7,8 @@ require 'PHPMailer\PHPMailer\Exception.php';
 
 if(
     isset($_POST['pdf2']) &&
-    !empty($_POST['name']) &&
-    !empty($_POST['mail']) &&
+    isset($_POST['name']) &&
+    isset($_POST['mail']) &&
     isset($_POST['enter'])
     )
 {
