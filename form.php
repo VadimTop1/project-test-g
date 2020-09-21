@@ -4,7 +4,6 @@ echo '<p>test0</p>';
 require 'phpmailer/PHPMailer.php';
 require 'phpmailer/SMTP.php';
 require 'phpmailer/Exception.php';
-echo '<p>test3</p>';
 
 if(
     isset($_POST['pdf2']) &&
@@ -22,18 +21,19 @@ if(
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     try {
         //Server settings
-        //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
-        $mail->isSMTP();                                            // Send using SMTP
-        $mail->Host       = 'ssl://smtp.mail.ru';                    // Set the SMTP server to send through
+        //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+        $mail->isSMTP();
+        //$mail->Host       = 'ssl://smtp.mail.ru';
+        $mail->Host       = 'ssl://smtp.gmail.com';
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'vadim2_1423@mail.ru';                     // SMTP username
-        $mail->Password   = 'agdWGHwc@s07d2sr';                               // SMTP password
+        $mail->Username   = 'project.k.vadim';                     // SMTP username
+        $mail->Password   = 'Ajd323Ljy5vu{p';                               // SMTP password
         $mail->SMTPSecure = 'ssl';
         $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         $mail->CharSet = "UTF-8";
 
         //Recipients
-        $mail->setFrom('vadim2_1423@mail.ru', 'Вадим');        //Отправитель и его имя
+        $mail->setFrom('project.k.vadim', 'Вадим (Проект)');        //Отправитель и его имя
         $mail->addBCC($form_mail);
 
         // Attachments
