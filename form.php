@@ -1,11 +1,9 @@
 <?php
 //require 'phpmailer/config_mail.php';
 echo '<p>test0</p>';
-require 'PHPMailer/PHPMailer/PHPMailer.php';
-echo '<p>test1</p>';
-require 'PHPMailer/PHPMailer/SMTP.php';
-echo '<p>test2</p>';
-require 'PHPMailer\PHPMailer\Exception.php';
+require 'phpmailer/PHPMailer.php';
+require 'phpmailer/SMTP.php';
+require 'phpmailer/Exception.php';
 echo '<p>test3</p>';
 
 if(
