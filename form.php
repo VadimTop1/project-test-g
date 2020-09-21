@@ -52,6 +52,8 @@ if(
 
         $mail->send();
         echo 'Message has been sent';
+        $_POST['name']  = null;
+        $_POST['mail']  = null;
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
