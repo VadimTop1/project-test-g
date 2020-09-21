@@ -22,7 +22,7 @@ class Mail
             $mail->CharSet = "UTF-8";
             $mail->SMTPAuth   = true;
             //$mail->SMTPDebug = 2;
-            $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
+            //$mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
             // Настройки вашей почты
             $mail->Host       = 'ssl://smtp.mail.ru'; // SMTP сервера вашей почты
@@ -33,8 +33,8 @@ class Mail
             $mail->setFrom('vadim2_1423@mail.ru', 'Вадим'); // Адрес самой почты и имя отправителя
 
             // Получатель письма
-            $mail->addAddress('vadim_1423@mail.ru');
-            $mail->addAddress('skorpion.mega.krut@gmail.com'); // Ещё один, если нужен
+            $mail->addBCC('vadim_1423@mail.ru');
+            $mail->addBCC('skorpion.mega.krut@gmail.com'); // Ещё один, если нужен
 
             // Прикрипление файлов к письму
             //if (!empty($file['name'][0])) {
@@ -50,6 +50,7 @@ class Mail
             //    }
             //}
             //$rfile[] = "нету";
+            $mail->addAttachment('./files/2044.xlsx', 'Пример excel');
             // Отправка сообщения
             $mail->isHTML(true);
             $mail->Subject = $title;
