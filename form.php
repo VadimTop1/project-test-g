@@ -1,9 +1,9 @@
 <?php
 //require 'phpmailer/config_mail.php';
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+require 'PHPMailer\PHPMailer\PHPMailer';
+require 'PHPMailer\PHPMailer\SMTP';
+require 'PHPMailer\PHPMailer\Exception';
 
 if(
     isset($_POST['pdf2']) &&
@@ -18,7 +18,7 @@ if(
 
     //$mail = new Mail($body,  $title);
     //$mail->inf();
-    $mail = new PHPMailer(true);
+    $mail = new PHPMailer\PHPMailer\PHPMailer(true);
     echo '<br/>[status: ]<br/>';
     var_dump($mail);
     try {
@@ -29,7 +29,7 @@ if(
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = 'vadim2_1423@mail.ru';                     // SMTP username
         $mail->Password   = 'agdWGHwc@s07d2sr';                               // SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+        $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         $mail->CharSet = "UTF-8";
 
