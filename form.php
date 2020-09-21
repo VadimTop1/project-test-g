@@ -1,4 +1,5 @@
 <?php
+require 'phpmailer/config_mail.php';
 
 if(
     isset($_POST['pdf2']) &&
@@ -7,19 +8,20 @@ if(
     isset($_POST['enter'])
     )
 {
+    $name = $_POST['name'];
+    $mail = $_POST['mail'];
     echo '<br/><br/>'.$_POST['pdf2'].' | '.$_POST['name'].' | '.$_POST['mail'].'<br/>';
 
-    // Сообщение
-    $message = "Line 1\r\nLine 2\r\nLine 3";
+    // Формирование самого письма
+    $title = "Заголовок письма";
+    $body = "
+        <h2>Новое письмо</h2>
+        <b>Имя:</b> $name<br>
+        <b>Почта:</b> $email<br><br>
+    ";
 
-    // На случай если какая-то строка письма длиннее 70 символов мы используем wordwrap()
-    $message = wordwrap($message, 70, "\r\n");
-
-    // Отправляем
-    if( mail('caffeinated@example.com', 'My Subject', $message))
-        echo "<br/>Отправленно!!";
-    else
-        echo "<br/>Ошибка!!";
+    $mail = new Mail($body,  $title);
+    $mail->inf();
 }else
 {
     echo '<br/><br/>Введите все данные!!!<br/>';
