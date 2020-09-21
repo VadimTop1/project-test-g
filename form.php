@@ -2,10 +2,12 @@
 //require 'phpmailer/config_mail.php';
 echo '<p>test0</p>';
 require 'PHPMailer\PHPMailer\PHPMailer.php';
-require 'PHPMailer\PHPMailer\SMTP.php';
-require 'PHPMailer\PHPMailer\Exception.php';
-
 echo '<p>test1</p>';
+require 'PHPMailer\PHPMailer\SMTP.php';
+echo '<p>test2</p>';
+require 'PHPMailer\PHPMailer\Exception.php';
+echo '<p>test3</p>';
+
 if(
     isset($_POST['pdf2']) &&
     isset($_POST['name']) &&
