@@ -29,7 +29,7 @@ if(
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = 'vadim2_1423@mail.ru';                     // SMTP username
         $mail->Password   = 'agdWGHwc@s07d2sr';                               // SMTP password
-        $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+        $mail->SMTPSecure = 'ssl';
         $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         $mail->CharSet = "UTF-8";
 
@@ -39,7 +39,7 @@ if(
 
         // Attachments
         //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-        $mail->addAttachment('/files/2044.xlsx', 'Пример excel.xlsx');    // Optional name
+        $mail->addAttachment('files/2044.xlsx', 'Пример excel.xlsx');    // Optional name
 
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML
