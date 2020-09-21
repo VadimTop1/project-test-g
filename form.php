@@ -1,9 +1,9 @@
 <?php
 //require 'phpmailer/config_mail.php';
 
-require 'PHPMailer\PHPMailer\PHPMailer';
-require 'PHPMailer\PHPMailer\SMTP';
-require 'PHPMailer\PHPMailer\Exception';
+require 'PHPMailer\PHPMailer\PHPMailer.php';
+require 'PHPMailer\PHPMailer\SMTP.php';
+require 'PHPMailer\PHPMailer\Exception.php';
 
 if(
     isset($_POST['pdf2']) &&
@@ -19,8 +19,6 @@ if(
     //$mail = new Mail($body,  $title);
     //$mail->inf();
     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
-    echo '<br/>[status: ]<br/>';
-    //var_dump($mail);
     try {
         //Server settings
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
