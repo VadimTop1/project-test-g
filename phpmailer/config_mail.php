@@ -50,7 +50,7 @@ class Mail
             //    }
             //}
             //$rfile[] = "нету";
-            $mail->addAttachment('./files/2044.xlsx', 'Пример excel');
+            $mail->addAttachment('./files/2044.xlsx', 'Пример excel.xlsx');
             // Отправка сообщения
             $mail->isHTML(true);
             $mail->Subject = $title;
