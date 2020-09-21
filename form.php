@@ -19,7 +19,8 @@ if(
     //$mail = new Mail($body,  $title);
     //$mail->inf();
     $mail = new PHPMailer(true);
-
+    echo '<br/>[status: ]<br/>';
+    var_dump($mail);
     try {
         //Server settings
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
