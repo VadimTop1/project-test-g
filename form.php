@@ -20,8 +20,8 @@ if(
         <b>Почта:</b> $mail<br><br>
     ";
 
-    $mail = new Mail($body,  $title);
-    $mail->inf();
+    //$mail = new Mail($body,  $title);
+    //$mail->inf();
 }else
 {
     echo '<br/><br/>Введите все данные!!!<br/>';
