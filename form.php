@@ -29,7 +29,7 @@ if(
         $mail->Username   = 'project.k.vadim';                     // SMTP username
         $mail->Password   = 'Ajd323Ljy5vu{p';                               // SMTP password
         $mail->SMTPSecure = 'ssl';
-        $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+        $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         $mail->CharSet = "UTF-8";
 
         //Recipients
