@@ -7,8 +7,8 @@ require 'PHPMailer\PHPMailer\Exception';
 
 if(
     isset($_POST['pdf2']) &&
-    isset($_POST['name']) && !empty($_POST['name']) &&
-    isset($_POST['mail']) && !empty($_POST['mail']) &&
+    !empty($_POST['name']) &&
+    !empty($_POST['mail']) &&
     isset($_POST['enter'])
     )
 {
@@ -20,7 +20,7 @@ if(
     //$mail->inf();
     $mail = new PHPMailer\PHPMailer\PHPMailer(true);
     echo '<br/>[status: ]<br/>';
-    var_dump($mail);
+    //var_dump($mail);
     try {
         //Server settings
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
