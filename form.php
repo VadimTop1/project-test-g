@@ -14,7 +14,7 @@ if(
 {
     $form_name = $_POST['name'];
     $form_mail = $_POST['mail'];
-    echo '<br/><br/>'.$_POST['pdf2'].' | '.$_POST['name'].' | '.$_POST['mail'].'<br/>';
+    //echo '<br/><br/>'.$_POST['pdf2'].' | '.$_POST['name'].' | '.$_POST['mail'].'<br/>';
 
     //$mail = new Mail($body,  $title);
     //$mail->inf();
@@ -51,9 +51,8 @@ if(
         $mail->AltBody = 'Новое письмо. Имя: '.$form_name.', Почта: '.$form_mail;
 
         $mail->send();
-        echo 'Message has been sent';
-        $_POST['name']  = null;
-        $_POST['mail']  = null;
+        //echo 'Message has been sent';
+        header('Location: '.$_SERVER["PHP_SELF"], true, 303);
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
