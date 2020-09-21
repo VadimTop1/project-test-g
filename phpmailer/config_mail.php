@@ -1,9 +1,9 @@
 <?php
 
 // Файлы phpmailer
-require 'phpmailer/PHPMailer.php';
-require 'phpmailer/SMTP.php';
-require 'phpmailer/Exception.php';
+require 'PHPMailer\PHPMailer\PHPMailer.php';
+require 'PHPMailer\PHPMailer\SMTP.php';
+require 'PHPMailer\PHPMailer\Exception.php';
 
 class Mail
 {
