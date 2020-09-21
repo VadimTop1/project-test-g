@@ -17,7 +17,7 @@ if(
     $body = "
         <h2>Новое письмо</h2>
         <b>Имя:</b> $name<br>
-        <b>Почта:</b> $email<br><br>
+        <b>Почта:</b> $mail<br><br>
     ";
 
     $mail = new Mail($body,  $title);
