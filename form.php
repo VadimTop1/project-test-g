@@ -23,6 +23,7 @@ if(
         //Server settings
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->isSMTP();
+        $mail->SMTPDebug = 1;
 
         $mail->Host       = 'ssl://smtp.gmail.com';
         $mail->Username   = 'project.k.vadim@gmail.com';                     // SMTP username
