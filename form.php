@@ -24,13 +24,13 @@ if(
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->isSMTP();
 
-        //$mail->Host       = 'ssl://smtp.gmail.com';
-        //$mail->Username   = 'project.k.vadim@gmail.com';                     // SMTP username
-        //$mail->Password   = 'Ajd323Ljy5vurt3';                               // SMTP password
+        $mail->Host       = 'ssl://smtp.gmail.com';
+        $mail->Username   = 'project.k.vadim@gmail.com';                     // SMTP username
+        $mail->Password   = 'Ajd323Ljy5vurt3';                               // SMTP password
 
-        $mail->Host       = 'ssl://smtp.mail.ru'; // SMTP сервера вашей почты
-        $mail->Username   = 'vadim2_1423@mail.ru'; // Логин на почте
-        $mail->Password   = 'a12dASHc@sG6d2Ur'; // Пароль на почте
+        //$mail->Host       = 'ssl://smtp.mail.ru'; // SMTP сервера вашей почты
+        //$mail->Username   = 'vadim2_1423@mail.ru'; // Логин на почте
+        //$mail->Password   = 'a12dASHc@sG6d2Ur'; // Пароль на почте
 
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->SMTPSecure = 'ssl';
@@ -38,8 +38,8 @@ if(
         $mail->CharSet = "UTF-8";
 
         //Recipients
-        //$mail->setFrom('project.k.vadim@gmail.com', 'Вадим (Проект "Test")');        //Отправитель и его имя
-        $mail->setFrom('vadim2_1423@mail.ru', 'Вадим (Проект "Test2")'); // Адрес самой почты и имя отправителя
+        $mail->setFrom('project.k.vadim@gmail.com', 'Вадим (Проект "Test")');        //Отправитель и его имя
+        //$mail->setFrom('vadim2_1423@mail.ru', 'Вадим (Проект "Test2")'); // Адрес самой почты и имя отправителя
         $mail->addBCC($form_mail);
 
         // Attachments
