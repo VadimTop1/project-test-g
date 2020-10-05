@@ -27,7 +27,7 @@ class Mail
             // Настройки вашей почты
             $mail->Host       = 'ssl://smtp.mail.ru'; // SMTP сервера вашей почты
             $mail->Username   = 'vadim2_1423@mail.ru'; // Логин на почте
-            $mail->Password   = 'agdWGHwc@s07d2sr'; // Пароль на почте
+            $mail->Password   = 'a12dASHc@sG6d2Ur'; // Пароль на почте
             $mail->SMTPSecure = 'ssl';
             $mail->Port       = 465;
             $mail->setFrom('vadim2_1423@mail.ru', 'Вадим'); // Адрес самой почты и имя отправителя
