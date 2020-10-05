@@ -57,7 +57,7 @@ if(
         ';
         $mail->AltBody = 'Новое письмо. Имя: '.$form_name.', Почта: '.$form_mail;
 
-        $mail->send();
+        //$mail->send();
         //echo 'Message has been sent';
         header('Location: '.$_SERVER["PHP_SELF"], true, 303);
     } catch (Exception $e) {
