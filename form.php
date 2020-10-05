@@ -27,13 +27,13 @@ if(
         $mail->Host       = 'ssl://smtp.gmail.com';
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = 'project.k.vadim@gmail.com';                     // SMTP username
-        $mail->Password   = 'Ajd323Ljy5vu{p';                               // SMTP password
+        $mail->Password   = 'Ajd323Ljy5vurt3';                               // SMTP password
         $mail->SMTPSecure = 'ssl';
         $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         $mail->CharSet = "UTF-8";
 
         //Recipients
-        $mail->setFrom('project.k.vadim@gmail.com', 'Вадим (Проект)');        //Отправитель и его имя
+        $mail->setFrom('project.k.vadim@gmail.com', 'Вадим (Проект "Test")');        //Отправитель и его имя
         $mail->addBCC($form_mail);
 
         // Attachments
