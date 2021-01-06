@@ -12,7 +12,7 @@
     <!-- End Google Tag Manager -->
 
 
-    <title>Аналитик тест</title>
+    <title>Аналитик тест page_1</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
